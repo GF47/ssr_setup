@@ -1,0 +1,26 @@
+{   
+    "server": "0.0.0.0",
+    "server_ipv6": "::",
+    "local_address": "127.0.0.1",
+    "local_port": 1080,
+    "port_password":
+    {
+        "233":"narutofugen",
+        "322":"narutofugen322"
+    },
+    "method": "aes-128-ctr",
+    "protocol": "auth_aes128_md5",
+    "protocol_param": "",
+    "obfs": "tls1.2_ticket_auth_compatible",
+    "obfs_param": "",
+    "speed_limit_per_con": 0,
+    "speed_limit_per_user": 0,
+    "additional_ports" : {},
+    "additional_ports_only" : false,
+    "timeout": 240,
+    "udp_timeout": 120,
+    "dns_ipv6": false,
+    "connect_verbose_info": 0,
+    "redirect": "",
+    "fast_open": false
+}
