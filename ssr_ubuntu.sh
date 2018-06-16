@@ -16,7 +16,7 @@ wget --no-check-certificate https://github.com/GF47/ssr_setup/raw/master/user-co
 chmod 664 user-config.json
 wget --no-check-certificate https://github.com/Ellean/across/raw/master/bbr.sh
 chmod +x bbr.sh
-./bbr.sh
+bash bbr.sh
 
 cd /usr/local/shadowsocksr/shadowsocks
 python server.py
