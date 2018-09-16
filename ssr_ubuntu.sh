@@ -19,4 +19,4 @@ chmod +x bbr.sh
 bash bbr.sh
 
 cd /usr/local/shadowsocksr/shadowsocks
-python server.py
+python3 server.py
